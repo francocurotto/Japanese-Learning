@@ -27,6 +27,13 @@ layout_mode = 2
 theme_override_constants/v_separation = 30
 columns = 2
 
+[node name="Color" parent="Panel/VBox/Grid" instance=ExtResource("2_4mn57")]
+layout_mode = 2
+icon = "res://vocabulary/colors/icons/colors.svg"
+english = "Color"
+kana = "いろ"
+kanji = "色"
+
 [node name="Red" parent="Panel/VBox/Grid" instance=ExtResource("2_4mn57")]
 layout_mode = 2
 icon = "res://vocabulary/colors/icons/red.svg"
@@ -47,3 +54,59 @@ icon = "res://vocabulary/colors/icons/green.svg"
 english = "Green"
 kana = "みどり"
 kanji = "緑"
+
+[node name="Yellow" parent="Panel/VBox/Grid" instance=ExtResource("2_4mn57")]
+layout_mode = 2
+icon = "res://vocabulary/colors/icons/yellow.svg"
+english = "Yellow"
+kana = "きいろ"
+kanji = "黄色"
+
+[node name="Orange" parent="Panel/VBox/Grid" instance=ExtResource("2_4mn57")]
+layout_mode = 2
+icon = "res://vocabulary/colors/icons/orange.svg"
+english = "Orange"
+kana = "オレンジいろ"
+kanji = "オレンジ色"
+
+[node name="Purple" parent="Panel/VBox/Grid" instance=ExtResource("2_4mn57")]
+layout_mode = 2
+icon = "res://vocabulary/colors/icons/purple.svg"
+english = "Purple"
+kana = "むらさき"
+kanji = "紫"
+
+[node name="Brown" parent="Panel/VBox/Grid" instance=ExtResource("2_4mn57")]
+layout_mode = 2
+icon = "res://vocabulary/colors/icons/brown.svg"
+english = "Brown"
+kana = "ちゃいろ"
+kanji = "茶色"
+
+[node name="Black" parent="Panel/VBox/Grid" instance=ExtResource("2_4mn57")]
+layout_mode = 2
+icon = "res://vocabulary/colors/icons/black.svg"
+english = "Black"
+kana = "くろ"
+kanji = "黒"
+
+[node name="White" parent="Panel/VBox/Grid" instance=ExtResource("2_4mn57")]
+layout_mode = 2
+icon = "res://vocabulary/colors/icons/white.svg"
+english = "White"
+kana = "しろ"
+kanji = "白"
+
+[node name="Gray" parent="Panel/VBox/Grid" instance=ExtResource("2_4mn57")]
+layout_mode = 2
+icon = "res://vocabulary/colors/icons/gray.svg"
+english = "Gray"
+kana = "はいいろ"
+kanji = "灰色"
+
+[node name="Pink" parent="Panel/VBox/Grid" instance=ExtResource("2_4mn57")]
+layout_mode = 2
+icon = "res://vocabulary/colors/icons/pink.svg"
+english = "Pink"
+kana = "ピンクいろ"
+kanji = "ピンク色"
