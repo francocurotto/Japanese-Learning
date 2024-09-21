@@ -24,18 +24,26 @@ horizontal_alignment = 1
 
 [node name="Grid" type="GridContainer" parent="Panel/VBox"]
 layout_mode = 2
+theme_override_constants/v_separation = 30
 columns = 2
 
 [node name="Red" parent="Panel/VBox/Grid" instance=ExtResource("2_4mn57")]
 layout_mode = 2
 icon = "res://vocabulary/colors/icons/red.svg"
-english_text = "Red"
-kana_text = "あか"
-kanji_text = "赤"
+english = "Red"
+kana = "あか"
+kanji = "赤"
 
 [node name="Blue" parent="Panel/VBox/Grid" instance=ExtResource("2_4mn57")]
 layout_mode = 2
 icon = "res://vocabulary/colors/icons/blue.svg"
-english_text = "Blue"
-kana_text = "かお"
-kanji_text = "青"
+english = "Blue"
+kana = "あお"
+kanji = "青"
+
+[node name="Green" parent="Panel/VBox/Grid" instance=ExtResource("2_4mn57")]
+layout_mode = 2
+icon = "res://vocabulary/colors/icons/green.svg"
+english = "Green"
+kana = "みどり"
+kanji = "緑"

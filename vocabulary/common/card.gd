@@ -6,20 +6,20 @@ extends PanelContainer
         icon = _icon
         $Column/Icon.texture = load(icon)
 
-@export var english_text: String = "English":
-    set(_english_text):
-        english_text = _english_text
-        $Column/English.text = english_text
+@export var english: String = "English":
+    set(_english):
+        english = _english
+        $Column/English.text = english
 
-@export var kana_text: String = "かな":
-    set(_kana_text):
-        kana_text = _kana_text
-        $Column/Kana.text = kana_text
+@export var kana: String = "かな":
+    set(_kana):
+        kana = _kana
+        $Column/Kana.text = kana
         
-@export var kanji_text: String = "漢字":
-    set(_kanji_text):
-        kanji_text = _kanji_text
-        $Column/Kanji.text = kanji_text
+@export var kanji: String = "漢字":
+    set(_kanji):
+        kanji = _kanji
+        $Column/Kanji.text = kanji
 
 @export var show_kana = false:
     set(_show_kana):
