@@ -10,6 +10,7 @@ custom_minimum_size = Vector2(300, 240)
 offset_right = 300.0
 offset_bottom = 240.0
 size_flags_horizontal = 6
+mouse_filter = 1
 theme = ExtResource("1_b0axx")
 theme_override_styles/panel = ExtResource("2_3ww11")
 script = ExtResource("1_jp6po")
@@ -33,13 +34,13 @@ text = "English"
 horizontal_alignment = 1
 
 [node name="Kana" type="Label" parent="Column"]
-visible = false
 layout_mode = 2
 theme = ExtResource("1_b0axx")
 text = "かな"
 horizontal_alignment = 1
 
 [node name="Kanji" type="Label" parent="Column"]
+visible = false
 layout_mode = 2
 theme = ExtResource("1_b0axx")
 text = "漢字"

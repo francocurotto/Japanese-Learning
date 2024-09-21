@@ -21,7 +21,7 @@ extends PanelContainer
         kanji = _kanji
         $Column/Kanji.text = kanji
 
-@export var show_kana = false:
+@export var show_kana = true:
     set(_show_kana):
         show_kana = _show_kana
         $Column/Kana.visible = show_kana
