@@ -1,18 +1,16 @@
-[gd_scene load_steps=5 format=3 uid="uid://c8ly5tgsybv3"]
+[gd_scene load_steps=4 format=3 uid="uid://c8ly5tgsybv3"]
 
 [ext_resource type="Theme" uid="uid://mqbngr5gbi1i" path="res://assets/themes/card.tres" id="1_b0axx"]
 [ext_resource type="Script" path="res://vocabulary/common/card.gd" id="1_jp6po"]
-[ext_resource type="StyleBox" uid="uid://b25f4inm2uerp" path="res://assets/styles/card.tres" id="2_3ww11"]
 [ext_resource type="Texture2D" uid="uid://dits7tvrbhdo8" path="res://icon.svg" id="2_ksh5i"]
 
-[node name="Card" type="PanelContainer"]
+[node name="Card" type="PanelContainer" groups=["cards"]]
 custom_minimum_size = Vector2(300, 240)
 offset_right = 300.0
 offset_bottom = 240.0
 size_flags_horizontal = 6
 mouse_filter = 1
 theme = ExtResource("1_b0axx")
-theme_override_styles/panel = ExtResource("2_3ww11")
 script = ExtResource("1_jp6po")
 
 [node name="Column" type="VBoxContainer" parent="."]
@@ -29,7 +27,6 @@ stretch_mode = 5
 
 [node name="English" type="Label" parent="Column"]
 layout_mode = 2
-theme = ExtResource("1_b0axx")
 text = "English"
 horizontal_alignment = 1
 

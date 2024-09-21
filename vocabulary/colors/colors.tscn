@@ -1,112 +1,111 @@
-[gd_scene load_steps=3 format=3 uid="uid://ch143b6c0153w"]
+[gd_scene load_steps=5 format=3 uid="uid://ch143b6c0153w"]
 
-[ext_resource type="FontFile" uid="uid://c8pmf6htdt0il" path="res://assets/fonts/NotoSansJP-ExtraBold.ttf" id="1_3gewa"]
 [ext_resource type="PackedScene" uid="uid://c8ly5tgsybv3" path="res://vocabulary/common/card.tscn" id="2_4mn57"]
+[ext_resource type="PackedScene" uid="uid://bes8xit33xpaw" path="res://vocabulary/common/title.tscn" id="2_56h5k"]
+[ext_resource type="PackedScene" uid="uid://cb86emskyujpx" path="res://vocabulary/common/grid.tscn" id="3_8hefv"]
+[ext_resource type="PackedScene" uid="uid://cbrldgg7vcnfe" path="res://vocabulary/common/kanji_button.tscn" id="4_knl44"]
 
-[node name="Colors" type="ScrollContainer"]
+[node name="Panel" type="PanelContainer"]
 offset_right = 720.0
 offset_bottom = 1280.0
 
-[node name="Panel" type="PanelContainer" parent="."]
+[node name="Colors" type="ScrollContainer" parent="."]
+layout_mode = 2
+
+[node name="VBox" type="VBoxContainer" parent="Colors"]
 layout_mode = 2
 size_flags_horizontal = 3
-mouse_filter = 1
 
-[node name="VBox" type="VBoxContainer" parent="Panel"]
+[node name="Title" parent="Colors/VBox" instance=ExtResource("2_56h5k")]
 layout_mode = 2
-
-[node name="Title" type="Label" parent="Panel/VBox"]
-layout_mode = 2
-theme_override_fonts/font = ExtResource("1_3gewa")
-theme_override_font_sizes/font_size = 50
 text = "- COLORS -"
-horizontal_alignment = 1
 
-[node name="Grid" type="GridContainer" parent="Panel/VBox"]
+[node name="Grid" parent="Colors/VBox" instance=ExtResource("3_8hefv")]
 layout_mode = 2
-theme_override_constants/v_separation = 30
-columns = 2
 
-[node name="Color" parent="Panel/VBox/Grid" instance=ExtResource("2_4mn57")]
+[node name="Color" parent="Colors/VBox/Grid" instance=ExtResource("2_4mn57")]
 layout_mode = 2
 icon = "res://vocabulary/colors/icons/colors.svg"
 english = "Color"
 kana = "いろ"
 kanji = "色"
 
-[node name="Red" parent="Panel/VBox/Grid" instance=ExtResource("2_4mn57")]
+[node name="Red" parent="Colors/VBox/Grid" instance=ExtResource("2_4mn57")]
 layout_mode = 2
 icon = "res://vocabulary/colors/icons/red.svg"
 english = "Red"
 kana = "あか"
 kanji = "赤"
 
-[node name="Blue" parent="Panel/VBox/Grid" instance=ExtResource("2_4mn57")]
+[node name="Blue" parent="Colors/VBox/Grid" instance=ExtResource("2_4mn57")]
 layout_mode = 2
 icon = "res://vocabulary/colors/icons/blue.svg"
 english = "Blue"
 kana = "あお"
 kanji = "青"
 
-[node name="Green" parent="Panel/VBox/Grid" instance=ExtResource("2_4mn57")]
+[node name="Green" parent="Colors/VBox/Grid" instance=ExtResource("2_4mn57")]
 layout_mode = 2
 icon = "res://vocabulary/colors/icons/green.svg"
 english = "Green"
 kana = "みどり"
 kanji = "緑"
 
-[node name="Yellow" parent="Panel/VBox/Grid" instance=ExtResource("2_4mn57")]
+[node name="Yellow" parent="Colors/VBox/Grid" instance=ExtResource("2_4mn57")]
 layout_mode = 2
 icon = "res://vocabulary/colors/icons/yellow.svg"
 english = "Yellow"
 kana = "きいろ"
 kanji = "黄色"
 
-[node name="Orange" parent="Panel/VBox/Grid" instance=ExtResource("2_4mn57")]
+[node name="Orange" parent="Colors/VBox/Grid" instance=ExtResource("2_4mn57")]
 layout_mode = 2
 icon = "res://vocabulary/colors/icons/orange.svg"
 english = "Orange"
 kana = "オレンジいろ"
 kanji = "オレンジ色"
 
-[node name="Purple" parent="Panel/VBox/Grid" instance=ExtResource("2_4mn57")]
+[node name="Purple" parent="Colors/VBox/Grid" instance=ExtResource("2_4mn57")]
 layout_mode = 2
 icon = "res://vocabulary/colors/icons/purple.svg"
 english = "Purple"
 kana = "むらさき"
 kanji = "紫"
 
-[node name="Brown" parent="Panel/VBox/Grid" instance=ExtResource("2_4mn57")]
+[node name="Brown" parent="Colors/VBox/Grid" instance=ExtResource("2_4mn57")]
 layout_mode = 2
 icon = "res://vocabulary/colors/icons/brown.svg"
 english = "Brown"
 kana = "ちゃいろ"
 kanji = "茶色"
 
-[node name="Black" parent="Panel/VBox/Grid" instance=ExtResource("2_4mn57")]
+[node name="Black" parent="Colors/VBox/Grid" instance=ExtResource("2_4mn57")]
 layout_mode = 2
 icon = "res://vocabulary/colors/icons/black.svg"
 english = "Black"
 kana = "くろ"
 kanji = "黒"
 
-[node name="White" parent="Panel/VBox/Grid" instance=ExtResource("2_4mn57")]
+[node name="White" parent="Colors/VBox/Grid" instance=ExtResource("2_4mn57")]
 layout_mode = 2
 icon = "res://vocabulary/colors/icons/white.svg"
 english = "White"
 kana = "しろ"
 kanji = "白"
 
-[node name="Gray" parent="Panel/VBox/Grid" instance=ExtResource("2_4mn57")]
+[node name="Gray" parent="Colors/VBox/Grid" instance=ExtResource("2_4mn57")]
 layout_mode = 2
 icon = "res://vocabulary/colors/icons/gray.svg"
 english = "Gray"
 kana = "はいいろ"
 kanji = "灰色"
 
-[node name="Pink" parent="Panel/VBox/Grid" instance=ExtResource("2_4mn57")]
+[node name="Pink" parent="Colors/VBox/Grid" instance=ExtResource("2_4mn57")]
 layout_mode = 2
 icon = "res://vocabulary/colors/icons/pink.svg"
 english = "Pink"
 kana = "ピンクいろ"
 kanji = "ピンク色"
+
+[node name="KanjiButton" parent="." instance=ExtResource("4_knl44")]
+layout_mode = 2
