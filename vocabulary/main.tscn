@@ -1,0 +1,63 @@
+[gd_scene load_steps=4 format=3 uid="uid://cr2skamgb16c8"]
+
+[ext_resource type="FontFile" uid="uid://c8pmf6htdt0il" path="res://assets/fonts/NotoSansJP-ExtraBold.ttf" id="1_4bq5p"]
+[ext_resource type="Texture2D" uid="uid://moildufoeiir" path="res://vocabulary/colors/icons/colors.svg" id="3_46kco"]
+[ext_resource type="Texture2D" uid="uid://bbb8bfkidhppf" path="res://vocabulary/animals/icons/dog-face.svg" id="3_uo3ry"]
+
+[node name="Main" type="PanelContainer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBox" type="VBoxContainer" parent="."]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="VBox"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_4bq5p")
+theme_override_font_sizes/font_size = 50
+text = "JAPANESE LEARNING
+日本語学習"
+horizontal_alignment = 1
+
+[node name="Scroll" type="ScrollContainer" parent="VBox"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Margins" type="MarginContainer" parent="VBox/Scroll"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 20
+
+[node name="Grid" type="GridContainer" parent="VBox/Scroll/Margins"]
+layout_mode = 2
+theme_override_constants/h_separation = 20
+theme_override_constants/v_separation = 20
+columns = 2
+
+[node name="Colors" type="Button" parent="VBox/Scroll/Margins/Grid"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_fonts/font = ExtResource("1_4bq5p")
+theme_override_font_sizes/font_size = 40
+text = "COLORS"
+icon = ExtResource("3_46kco")
+icon_alignment = 1
+vertical_icon_alignment = 0
+expand_icon = true
+
+[node name="Animals" type="Button" parent="VBox/Scroll/Margins/Grid"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_fonts/font = ExtResource("1_4bq5p")
+theme_override_font_sizes/font_size = 40
+text = "Animals"
+icon = ExtResource("3_uo3ry")
+icon_alignment = 1
+vertical_icon_alignment = 0
+expand_icon = true
