@@ -30,4 +30,7 @@ extends PanelContainer
 func _on_button_pressed() -> void:
     var voices = DisplayServer.tts_get_voices_for_language("jp")
     if not voices.is_empty():
-        DisplayServer.tts_speak(kanji, voices[0])
+        if kanji == "":
+            DisplayServer.tts_speak(kana, voices[0])
+        else:
+            DisplayServer.tts_speak(kanji, voices[0])
