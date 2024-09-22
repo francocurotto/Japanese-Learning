@@ -26,3 +26,6 @@ extends PanelContainer
         show_kana = _show_kana
         $Column/Kana.visible = show_kana
         $Column/Kanji.visible = not show_kana
+
+func _on_button_pressed() -> void:
+    DisplayServer.tts_speak(kanji, Globals.jp_voice)
