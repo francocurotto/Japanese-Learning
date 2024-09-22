@@ -1,4 +1,3 @@
-@tool
 extends PanelContainer
 
 @export var title = "TITLE":

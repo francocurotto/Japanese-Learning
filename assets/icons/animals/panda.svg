@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   version="1.1"
+   id="Layer_1"
+   viewBox="0 0 512 512"
+   xml:space="preserve"
+   sodipodi:docname="panda-bear-panda-svgrepo-com.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs33" /><sodipodi:namedview
+   id="namedview31"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   showgrid="false"
+   inkscape:zoom="1.0273438"
+   inkscape:cx="256.48669"
+   inkscape:cy="256"
+   inkscape:window-width="1366"
+   inkscape:window-height="696"
+   inkscape:window-x="0"
+   inkscape:window-y="40"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Layer_1" />
+<g
+   id="g6"
+   transform="matrix(-1,0,0,1,512,0)">
+	<path
+   style="fill:#05232e"
+   d="m 389.565,94.609 v -8.348 c 0,-13.831 -11.213,-25.043 -25.043,-25.043 -13.831,0 -25.043,11.213 -25.043,25.043 v 8.348 l 25.971,13.727 z"
+   id="path2" />
+	<path
+   style="fill:#05232e"
+   d="M 473.043,86.261 C 473.043,72.43 461.83,61.218 448,61.218 c -13.831,0 -25.043,11.213 -25.043,25.043 v 8.348 l 25.6,13.727 24.487,-13.727 v -8.348 z"
+   id="path4" />
+</g>
+<path
+   style="fill:#fae8ac"
+   d="M 122.435,94.609 183.652,172.893 122.435,278.622 27.668,214.59 C 12.451,204.308 0,179.757 0,161.391 V 94.609 Z"
+   id="path8" />
+<path
+   style="fill:#6b8f9c"
+   d="m 512,450.783 c -61.472,0 -111.304,-49.833 -111.304,-111.304 L 455.977,307.2 512,339.478 Z"
+   id="path10" />
+<g
+   id="g16"
+   transform="matrix(-1,0,0,1,512,0)">
+	<path
+   style="fill:#05232e"
+   d="m 389.565,450.783 h 44.522 c 0,-18.442 -14.949,-33.391 -33.391,-33.391 h -11.13 v -77.913 l -53.055,-36.73 -58.249,36.73 c -10e-4,61.47 49.832,111.304 111.303,111.304 z"
+   id="path12" />
+	<path
+   style="fill:#05232e"
+   d="m 256,450.783 h 44.522 c 0,-18.442 -14.949,-33.391 -33.391,-33.391 H 256 v -77.913 l -53.055,-41.183 -58.249,41.183 c 0,61.47 49.832,111.304 111.304,111.304 z"
+   id="path14" />
+</g>
+<path
+   style="fill:#fdf3d3"
+   d="M 400.696,94.609 C 461.913,94.609 512,144.696 512,205.913 V 339.478 H 233.739 L 174.005,225.577 233.739,94.609 Z"
+   id="path18" />
+<g
+   id="g26"
+   transform="matrix(-1,0,0,1,512,0)">
+	<rect
+   x="178.08701"
+   y="128"
+   style="fill:#ffffff"
+   width="33.390999"
+   height="33.390999"
+   id="rect20" />
+	<rect
+   x="178.08701"
+   y="194.783"
+   style="fill:#ffffff"
+   width="33.390999"
+   height="33.390999"
+   id="rect22" />
+	<rect
+   x="77.913002"
+   y="239.304"
+   style="fill:#ffffff"
+   width="33.390999"
+   height="33.390999"
+   id="rect24" />
+</g>
+<rect
+   x="-233.73901"
+   y="94.609001"
+   style="fill:#325763"
+   width="111.304"
+   height="244.87"
+   id="rect28"
+   transform="scale(-1,1)" />
+</svg>

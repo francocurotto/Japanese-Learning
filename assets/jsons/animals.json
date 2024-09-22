@@ -1,0 +1,149 @@
+[
+    {"section": "Mammals"},
+	{
+		"english": "Dog",
+		"kana": "いぬ",
+		"kanji": "犬",
+		"icon": "res://assets/icons/animals/dog.svg"
+	},
+	{
+		"english": "Cat",
+		"kana": "ねこ",
+		"kanji": "猫",
+		"icon": "res://assets/icons/animals/cat.svg"
+	},
+	{
+		"english": "Cow",
+		"kana": "うし",
+		"kanji": "牛",
+		"icon": "res://assets/icons/animals/cow.svg"
+	},
+	{
+		"english": "Horse",
+		"kana": "うま",
+		"kanji": "馬",
+		"icon": "res://assets/icons/animals/horse.svg"
+	},
+	{
+		"english": "Mouse",
+		"kana": "ねずみ",
+		"kanji": "鼠",
+		"icon": "res://assets/icons/animals/mouse.svg"
+	},
+	{
+		"english": "Rabbit",
+		"kana": "うさぎ",
+		"kanji": "兎",
+		"icon": "res://assets/icons/animals/rabbit.svg"
+	},
+	{
+		"english": "sheep",
+		"kana": "ひつじ",
+		"kanji": "羊",
+		"icon": "res://assets/icons/animals/sheep.svg"
+	},
+	{
+		"english": "Pig",
+		"kana": "ぶた",
+		"kanji": "豚",
+		"icon": "res://assets/icons/animals/pig.svg"
+	},
+	{
+		"english": "Fox",
+		"kana": "きつね",
+		"kanji": "狐",
+		"icon": "res://assets/icons/animals/fox.svg"
+	},
+	{
+		"english": "Monkey",
+		"kana": "さる",
+		"kanji": "猿",
+		"icon": "res://assets/icons/animals/monkey.svg"
+	},
+	{
+		"english": "deer",
+		"kana": "しか",
+		"kanji": "鹿",
+		"icon": "res://assets/icons/animals/deer.svg"
+	},
+	{
+		"english": "bear",
+		"kana": "くま",
+		"kanji": "熊",
+		"icon": "res://assets/icons/animals/bear.svg"
+	},
+	{
+		"english": "Elephant",
+		"kana": "ぞう",
+		"kanji": "象",
+		"icon": "res://assets/icons/animals/elephant.svg"
+	},
+	{
+		"english": "Lion",
+		"kana": "ライオン",
+		"kanji": "",
+		"icon": "res://assets/icons/animals/lion.svg"
+	},
+	{
+		"english": "Tiger",
+		"kana": "とら",
+		"kanji": "虎",
+		"icon": "res://assets/icons/animals/tiger.svg"
+	},
+	{
+		"english": "Panda",
+		"kana": "パンダ",
+		"kanji": "",
+		"icon": "res://assets/icons/animals/panda.svg"
+	},
+	{
+		"english": "Koala",
+		"kana": "コアラ",
+		"kanji": "",
+		"icon": "res://assets/icons/animals/koala.svg"
+	},
+	{
+		"english": "Camel",
+		"kana": "らくだ",
+		"kanji": "駱駝",
+		"icon": "res://assets/icons/animals/camel.svg"
+	},
+    {"section": "Birds"},
+	{
+		"english": "Bird",
+		"kana": "とり",
+		"kanji": "鳥",
+		"icon": "res://assets/icons/animals/bird.svg"
+	},
+	{
+		"english": "Chicken",
+		"kana": "にわとり",
+		"kanji": "鶏",
+		"icon": "res://assets/icons/animals/chicken.svg"
+	},
+	{
+		"english": "Duck",
+		"kana": "かも",
+		"kanji": "鴨",
+		"icon": "res://assets/icons/animals/duck.svg"
+	},
+    {"section": "Sea Animals"},
+	{
+		"english": "Fish",
+		"kana": "さかな",
+		"kanji": "魚",
+		"icon": "res://assets/icons/animals/fish.svg"
+	},
+	{
+		"english": "Octopus",
+		"kana": "たこ",
+		"kanji": "章魚",
+		"icon": "res://assets/icons/animals/octopus.svg"
+	},
+	{
+		"english": "Shrimp",
+		"kana": "えび",
+		"kanji": "海老",
+		"icon": "res://assets/icons/animals/shrimp.svg"
+	}
+]
