@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://cr2skamgb16c8"]
+[gd_scene load_steps=5 format=3 uid="uid://cr2skamgb16c8"]
 
 [ext_resource type="FontFile" uid="uid://c8pmf6htdt0il" path="res://assets/fonts/NotoSansJP-ExtraBold.ttf" id="1_4bq5p"]
-[ext_resource type="Texture2D" uid="uid://moildufoeiir" path="res://vocabulary/colors/icons/colors.svg" id="3_46kco"]
-[ext_resource type="Texture2D" uid="uid://bbb8bfkidhppf" path="res://vocabulary/animals/icons/dog-face.svg" id="3_uo3ry"]
+[ext_resource type="Script" path="res://main/main.gd" id="1_5ti84"]
+[ext_resource type="PackedScene" uid="uid://bbse1lch4yax0" path="res://main/main_button/main_button.tscn" id="3_bcheo"]
+[ext_resource type="Texture2D" uid="uid://ld08pfxy3j87" path="res://assets/icons/colors/color.svg" id="4_lvf3p"]
 
 [node name="Main" type="PanelContainer"]
 anchors_preset = 15
@@ -10,6 +11,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_5ti84")
 
 [node name="VBox" type="VBoxContainer" parent="."]
 layout_mode = 2
@@ -40,24 +42,8 @@ theme_override_constants/h_separation = 20
 theme_override_constants/v_separation = 20
 columns = 2
 
-[node name="Colors" type="Button" parent="VBox/Scroll/Margins/Grid"]
+[node name="Colors" parent="VBox/Scroll/Margins/Grid" instance=ExtResource("3_bcheo")]
 layout_mode = 2
-size_flags_horizontal = 3
-theme_override_fonts/font = ExtResource("1_4bq5p")
-theme_override_font_sizes/font_size = 40
 text = "COLORS"
-icon = ExtResource("3_46kco")
-icon_alignment = 1
-vertical_icon_alignment = 0
-expand_icon = true
-
-[node name="Animals" type="Button" parent="VBox/Scroll/Margins/Grid"]
-layout_mode = 2
-size_flags_horizontal = 3
-theme_override_fonts/font = ExtResource("1_4bq5p")
-theme_override_font_sizes/font_size = 40
-text = "Animals"
-icon = ExtResource("3_uo3ry")
-icon_alignment = 1
-vertical_icon_alignment = 0
-expand_icon = true
+icon = ExtResource("4_lvf3p")
+json = "res://assets/jsons/colors.json"

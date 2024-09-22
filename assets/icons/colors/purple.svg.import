@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://v3x7k4sdvexm"
-path="res://.godot/imported/purple.svg-05566ad5731f636e848fe6d98a3c7617.ctex"
+path="res://.godot/imported/purple.svg-9715b1a06364d19cf0da8f82d638aec8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://vocabulary/colors/icons/purple.svg"
-dest_files=["res://.godot/imported/purple.svg-05566ad5731f636e848fe6d98a3c7617.ctex"]
+source_file="res://assets/icons/colors/purple.svg"
+dest_files=["res://.godot/imported/purple.svg-9715b1a06364d19cf0da8f82d638aec8.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bn3ngr6btecio"
-path="res://.godot/imported/brown.svg-8f3528a177d459388fbd4eb72a2f42e8.ctex"
+uid="uid://moildufoeiir"
+path="res://.godot/imported/colors.svg-68f00e145901e8f3d3d9cc9d5695fc74.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://vocabulary/colors/icons/brown.svg"
-dest_files=["res://.godot/imported/brown.svg-8f3528a177d459388fbd4eb72a2f42e8.ctex"]
+source_file="res://assets/icons/colors/colors.svg"
+dest_files=["res://.godot/imported/colors.svg-68f00e145901e8f3d3d9cc9d5695fc74.ctex"]
 
 [params]
 

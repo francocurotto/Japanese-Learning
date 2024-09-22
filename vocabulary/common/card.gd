@@ -1,7 +1,7 @@
 @tool
 extends PanelContainer
 
-@export_file("*.svg") var icon :
+@export_file("*.svg") var icon:
     set(_icon):
         icon = _icon
         $Column/Icon.texture = load(icon)

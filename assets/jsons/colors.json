@@ -1,0 +1,74 @@
+[
+	{
+		"english": "Color",
+		"kana": "いろ",
+		"kanji": "色",
+		"icon": "res://assets/icons/colors/color.svg"
+	},
+	{
+		"english": "Red",
+		"kana": "あか",
+		"kanji": "赤",
+		"icon": "res://assets/icons/colors/red.svg"
+	},
+	{
+		"english": "Blue",
+		"kana": "あお",
+		"kanji": "青",
+		"icon": "res://assets/icons/colors/blue.svg"
+	},
+	{
+		"english": "Green",
+		"kana": "みどり",
+		"kanji": "緑",
+		"icon": "res://assets/icons/colors/green.svg"
+	},
+	{
+		"english": "Yellow",
+		"kana": "きいろ",
+		"kanji": "黄色",
+		"icon": "res://assets/icons/colors/yellow.svg"
+	},
+	{
+		"english": "Orange",
+		"kana": "オレンジいろ",
+		"kanji": "オレンジ色",
+		"icon": "res://assets/icons/colors/orange.svg"
+	},
+	{
+		"english": "Purple",
+		"kana": "むらさき",
+		"kanji": "紫",
+		"icon": "res://assets/icons/colors/purple.svg"
+	},
+	{
+		"english": "Brown",
+		"kana": "ちゃいろ",
+		"kanji": "茶色",
+		"icon": "res://assets/icons/colors/brown.svg"
+	},
+	{
+		"english": "Black",
+		"kana": "くろ",
+		"kanji": "黒",
+		"icon": "res://assets/icons/colors/black.svg"
+	},
+	{
+		"english": "White",
+		"kana": "しろ",
+		"kanji": "白",
+		"icon": "res://assets/icons/colors/white.svg"
+	},
+	{
+		"english": "Gray",
+		"kana": "はいいろ",
+		"kanji": "灰色",
+		"icon": "res://assets/icons/colors/gray.svg"
+	},
+	{
+		"english": "Pink",
+		"kana": "ピンクいろ",
+		"kanji": "ピンク色",
+		"icon": "res://assets/icons/colors/pink.svg"
+	}
+]

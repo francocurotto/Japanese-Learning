@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://bbse1lch4yax0"]
+
+[ext_resource type="FontFile" uid="uid://c8pmf6htdt0il" path="res://assets/fonts/NotoSansJP-ExtraBold.ttf" id="1_6j4gn"]
+[ext_resource type="Script" path="res://main/main_button/main_button.gd" id="1_ljev3"]
+
+[node name="MainButton" type="Button"]
+size_flags_horizontal = 3
+theme_override_fonts/font = ExtResource("1_6j4gn")
+theme_override_font_sizes/font_size = 50
+icon_alignment = 1
+vertical_icon_alignment = 0
+expand_icon = true
+script = ExtResource("1_ljev3")
+
+[connection signal="pressed" from="." to="." method="_on_pressed"]

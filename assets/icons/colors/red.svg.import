@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://crruttcspqo2w"
-path="res://.godot/imported/yellow.svg-d2ed7e2686d530b190bbb24fb1d888db.ctex"
+uid="uid://bhil143lm4v8m"
+path="res://.godot/imported/red.svg-e48de0dd7185b87abab611641d08a54e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://vocabulary/colors/icons/yellow.svg"
-dest_files=["res://.godot/imported/yellow.svg-d2ed7e2686d530b190bbb24fb1d888db.ctex"]
+source_file="res://assets/icons/colors/red.svg"
+dest_files=["res://.godot/imported/red.svg-e48de0dd7185b87abab611641d08a54e.ctex"]
 
 [params]
 
