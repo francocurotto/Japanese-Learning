@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://c4o2hwktrocvg"]
+
+[node name="Grid" type="GridContainer"]
+size_flags_vertical = 3
+theme_override_constants/v_separation = 20
+columns = 2

@@ -79,28 +79,10 @@
 		"icon": "res://assets/icons/animals/elephant.svg"
 	},
 	{
-		"english": "Lion",
-		"kana": "ライオン",
-		"kanji": "",
-		"icon": "res://assets/icons/animals/lion.svg"
-	},
-	{
 		"english": "Tiger",
 		"kana": "とら",
 		"kanji": "虎",
 		"icon": "res://assets/icons/animals/tiger.svg"
-	},
-	{
-		"english": "Panda",
-		"kana": "パンダ",
-		"kanji": "",
-		"icon": "res://assets/icons/animals/panda.svg"
-	},
-	{
-		"english": "Koala",
-		"kana": "コアラ",
-		"kanji": "",
-		"icon": "res://assets/icons/animals/koala.svg"
 	},
 	{
 		"english": "Camel",
