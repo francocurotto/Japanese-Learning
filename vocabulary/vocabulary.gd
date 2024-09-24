@@ -24,8 +24,10 @@ func _ready():
             create_card(element)
                 
 func create_section(section_text):
+    # create section instance
     var section = Section.instantiate()
-    section.text = "\n" + section_text
+    section.text = section_text
+    # add to scene
     $VBox/Scroll/VBox.add_child(section)
 
 func create_card(card_info):
@@ -37,10 +39,10 @@ func create_card(card_info):
     card.icon = card_info["icon"]
     # add to scene
     var control = $VBox/Scroll/VBox.get_child(-1)
-    if control is not GridContainer:
-        control = Grid.instantiate()
-        $VBox/Scroll/VBox.add_child(control)
-    control.add_child(card)
+    if control is GridContainer:
+        control.add_child(card)
+    else:
+        control.add_child_to_grid(card)
 
 func _on_back_pressed() -> void:
     Events.on_back_pressed.emit()

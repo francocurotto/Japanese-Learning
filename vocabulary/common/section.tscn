@@ -1,8 +1,28 @@
-[gd_scene load_steps=2 format=3 uid="uid://c05ydj3ab0ltm"]
+[gd_scene load_steps=5 format=3 uid="uid://c05ydj3ab0ltm"]
 
+[ext_resource type="Script" path="res://vocabulary/common/section.gd" id="1_3sppk"]
 [ext_resource type="FontFile" uid="uid://c8pmf6htdt0il" path="res://assets/fonts/NotoSansJP-ExtraBold.ttf" id="1_8yfqi"]
+[ext_resource type="Texture2D" uid="uid://b8iahglpet7eo" path="res://assets/icons/common/section_open.svg" id="2_wuh8k"]
+[ext_resource type="PackedScene" uid="uid://c4o2hwktrocvg" path="res://vocabulary/common/grid.tscn" id="3_agkpp"]
 
-[node name="Section" type="Label"]
+[node name="Section" type="VBoxContainer"]
+offset_right = 344.0
+offset_bottom = 71.0
+size_flags_horizontal = 3
+script = ExtResource("1_3sppk")
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 2
 theme_override_fonts/font = ExtResource("1_8yfqi")
 theme_override_font_sizes/font_size = 40
-text = "SECTION"
+toggle_mode = true
+text = "Section"
+icon = ExtResource("2_wuh8k")
+flat = true
+alignment = 0
+expand_icon = true
+
+[node name="Grid" parent="." instance=ExtResource("3_agkpp")]
+layout_mode = 2
+
+[connection signal="toggled" from="Button" to="." method="_on_button_toggled"]
