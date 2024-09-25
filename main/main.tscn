@@ -1,10 +1,11 @@
-[gd_scene load_steps=6 format=3 uid="uid://cr2skamgb16c8"]
+[gd_scene load_steps=7 format=3 uid="uid://cr2skamgb16c8"]
 
 [ext_resource type="FontFile" uid="uid://c8pmf6htdt0il" path="res://assets/fonts/NotoSansJP-ExtraBold.ttf" id="1_4bq5p"]
 [ext_resource type="Script" path="res://main/main.gd" id="1_5ti84"]
 [ext_resource type="PackedScene" uid="uid://bbse1lch4yax0" path="res://main/main_button/main_button.tscn" id="3_bcheo"]
 [ext_resource type="Texture2D" uid="uid://ld08pfxy3j87" path="res://assets/icons/colors/color.svg" id="4_lvf3p"]
 [ext_resource type="Texture2D" uid="uid://bbb8bfkidhppf" path="res://assets/icons/animals/dog-face.svg" id="5_kdkm7"]
+[ext_resource type="Texture2D" uid="uid://dmkeftsjr4s0o" path="res://assets/icons/food/food.svg" id="6_s0vgl"]
 
 [node name="Main" type="PanelContainer"]
 anchors_preset = 15
@@ -54,3 +55,9 @@ layout_mode = 2
 text = "ANIMALS"
 icon = ExtResource("5_kdkm7")
 json = "res://assets/jsons/animals.json"
+
+[node name="Food" parent="VBox/Scroll/Margins/Grid" instance=ExtResource("3_bcheo")]
+layout_mode = 2
+text = "FOOD"
+icon = ExtResource("6_s0vgl")
+json = "res://assets/jsons/food.json"

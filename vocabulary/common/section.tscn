@@ -13,6 +13,7 @@ script = ExtResource("1_3sppk")
 
 [node name="Button" type="Button" parent="."]
 layout_mode = 2
+mouse_filter = 1
 theme_override_fonts/font = ExtResource("1_8yfqi")
 theme_override_font_sizes/font_size = 40
 toggle_mode = true

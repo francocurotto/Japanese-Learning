@@ -1,7 +1,7 @@
 [gd_scene load_steps=6 format=3 uid="uid://bicx1al376ljv"]
 
 [ext_resource type="Script" path="res://vocabulary/vocabulary.gd" id="1_8c1u0"]
-[ext_resource type="Texture2D" uid="uid://c2qmwjruyrs3f" path="res://assets/icons/back.svg" id="2_32d7y"]
+[ext_resource type="Texture2D" uid="uid://bop781ktgp2sb" path="res://assets/icons/common/back.svg" id="2_32d7y"]
 [ext_resource type="FontFile" uid="uid://c8pmf6htdt0il" path="res://assets/fonts/NotoSansJP-ExtraBold.ttf" id="3_e24fj"]
 [ext_resource type="PackedScene" uid="uid://cbrldgg7vcnfe" path="res://vocabulary/common/kanji_button.tscn" id="3_kooev"]
 [ext_resource type="PackedScene" uid="uid://c4o2hwktrocvg" path="res://vocabulary/common/grid.tscn" id="4_kiis7"]

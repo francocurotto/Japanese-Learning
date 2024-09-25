@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c2qmwjruyrs3f"
-path="res://.godot/imported/back.svg-2ce88e489e999c5a19b8edcbfbc3f945.ctex"
+uid="uid://pv1kqcrymm4f"
+path="res://.godot/imported/meat.svg-94330ce5f545a32fc0aa2ad9fefd03da.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/icons/back.svg"
-dest_files=["res://.godot/imported/back.svg-2ce88e489e999c5a19b8edcbfbc3f945.ctex"]
+source_file="res://assets/icons/food/meat.svg"
+dest_files=["res://.godot/imported/meat.svg-94330ce5f545a32fc0aa2ad9fefd03da.ctex"]
 
 [params]
 

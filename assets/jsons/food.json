@@ -1,0 +1,21 @@
+[
+    {
+        "english": "Food",
+        "kana": "たべもの",
+        "kanji": "食べ物",
+        "icon": "res://assets/icons/food/food.svg"
+    },
+    {"section": "Animals"},
+    {
+        "english": "Meat",
+        "kana": "にく",
+        "kanji": "肉",
+        "icon": "res://assets/icons/food/meat.svg"
+    },
+    {
+        "english": "Egg",
+        "kana": "たまご",
+        "kanji": "卵",
+        "icon": "res://assets/icons/food/egg.svg"
+    }
+]
