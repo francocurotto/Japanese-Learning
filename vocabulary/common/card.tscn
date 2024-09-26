@@ -2,7 +2,7 @@
 
 [ext_resource type="Theme" uid="uid://mqbngr5gbi1i" path="res://assets/themes/card.tres" id="1_b0axx"]
 [ext_resource type="Script" path="res://vocabulary/common/card.gd" id="1_jp6po"]
-[ext_resource type="Texture2D" uid="uid://dits7tvrbhdo8" path="res://icon.svg" id="2_ksh5i"]
+[ext_resource type="Texture2D" uid="uid://bgx1omwxr1yve" path="res://icon.svg" id="3_17a2r"]
 
 [node name="Card" type="PanelContainer" groups=["cards"]]
 custom_minimum_size = Vector2(300, 240)
@@ -21,7 +21,7 @@ alignment = 1
 [node name="Icon" type="TextureRect" parent="Column"]
 custom_minimum_size = Vector2(0, 80)
 layout_mode = 2
-texture = ExtResource("2_ksh5i")
+texture = ExtResource("3_17a2r")
 expand_mode = 1
 stretch_mode = 5
 

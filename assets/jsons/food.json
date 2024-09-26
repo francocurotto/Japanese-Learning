@@ -17,5 +17,24 @@
         "kana": "たまご",
         "kanji": "卵",
         "icon": "res://assets/icons/food/egg.svg"
+    },
+    {"section": "Meals"},
+    {
+        "english": "Breakfast",
+        "kana": "あさごはん",
+        "kanji": "朝ご飯",
+        "icon": "res://assets/icons/food/breakfast.svg"
+    },
+    {
+        "english": "Lunch",
+        "kana": "ひるごはん",
+        "kanji": "昼ご飯",
+        "icon": "res://assets/icons/food/lunch.svg"
+    },
+    {
+        "english": "Dinner",
+        "kana": "ばんごはん",
+        "kanji": "晩ご飯",
+        "icon": "res://assets/icons/food/dinner.svg"
     }
 ]
