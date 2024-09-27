@@ -18,6 +18,7 @@
         "kanji": "卵",
         "icon": "res://assets/icons/food/egg.svg"
     },
+    {"section": "Fruit and Vegetables"},
     {"section": "Meals"},
     {
         "english": "Breakfast",
