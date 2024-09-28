@@ -19,6 +19,97 @@
         "icon": "res://assets/icons/food/egg.svg"
     },
     {"section": "Fruit and Vegetables"},
+    {
+        "english": "Fruit",
+        "kana": "くだもの",
+        "kanji": "果物",
+        "icon": "res://assets/icons/food/fruit.svg"
+    },
+    {
+        "english": "Vegetables",
+        "kana": "やさい",
+        "kanji": "野菜",
+        "icon": "res://assets/icons/food/vegetables.svg"
+    },
+    {
+        "english": "Apple",
+        "kana": "りんご",
+        "kanji": "林檎",
+        "icon": "res://assets/icons/food/apple.svg"
+    },
+    {
+        "english": "Cherry",
+        "kana": "さくらんぼ",
+        "kanji": "桜ん坊",
+        "icon": "res://assets/icons/food/cherry.svg"
+    },
+    {
+        "english": "Melon",
+        "kana": "うり",
+        "kanji": "瓜",
+        "icon": "res://assets/icons/food/melon.svg"
+    },
+    {
+        "english": "Watermelon",
+        "kana": "すいか",
+        "kanji": "西瓜",
+        "icon": "res://assets/icons/food/watermelon.svg"
+    },
+    {
+        "english": "Cucumber",
+        "kana": "きゅうり",
+        "kanji": "胡瓜",
+        "icon": "res://assets/icons/food/cucumber.svg"
+    },
+    {
+        "english": "Mandarin",
+        "kana": "みかん",
+        "kanji": "蜜柑",
+        "icon": "res://assets/icons/food/mandarin.svg"
+    },
+    {"section": "Japanese"},
+    {
+        "english": "Sushi",
+        "kana": "すし",
+        "kanji": "寿司",
+        "icon": "res://assets/icons/food/sushi.svg"
+    },
+    {
+        "english": "Ramen",
+        "kana": "ラーメン",
+        "kanji": "",
+        "icon": "res://assets/icons/food/ramen.svg"
+    },
+    {
+        "english": "Bento",
+        "kana": "べんとう",
+        "kanji": "弁当",
+        "icon": "res://assets/icons/food/bento.svg"
+    },
+    {
+        "english": "Tempura",
+        "kana": "てんぷら",
+        "kanji": "天ぷら",
+        "icon": "res://assets/icons/food/tempura.svg"
+    },
+    {
+        "english": "Dango",
+        "kana": "だんご",
+        "kanji": "団子",
+        "icon": "res://assets/icons/food/dango.svg"
+    },
+    {
+        "english": "Onigiri",
+        "kana": "おにぎり",
+        "kanji": "お握り",
+        "icon": "res://assets/icons/food/onigiri.svg"
+    },
+    {
+        "english": "Natto",
+        "kana": "なっとう",
+        "kanji": "納豆",
+        "icon": "res://assets/icons/food/natto.svg"
+    },
     {"section": "Meals"},
     {
         "english": "Breakfast",
