@@ -110,6 +110,12 @@
         "kanji": "納豆",
         "icon": "res://assets/icons/food/natto.svg"
     },
+    {
+        "english": "Takoyaki",
+        "kana": "たこやき",
+        "kanji": "たこ焼き",
+        "icon": "res://assets/icons/food/takoyaki.svg"
+    },
     {"section": "Meals"},
     {
         "english": "Breakfast",
