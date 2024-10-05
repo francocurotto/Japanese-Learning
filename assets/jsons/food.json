@@ -67,6 +67,19 @@
         "kanji": "蜜柑",
         "icon": "res://assets/icons/food/mandarin.svg"
     },
+    {"section": "Grains"},
+    {
+        "english": "Rice",
+        "kana": "ごはん",
+        "kanji": "ご飯",
+        "icon": "res://assets/icons/food/rice.svg"
+    },
+    {
+        "english": "Rice Porridge",
+        "kana": "おかゆ",
+        "kanji": "お粥",
+        "icon": "res://assets/icons/food/rice-porridge.svg"
+    },
     {"section": "Japanese"},
     {
         "english": "Sushi",
@@ -115,6 +128,56 @@
         "kana": "たこやき",
         "kanji": "たこ焼き",
         "icon": "res://assets/icons/food/takoyaki.svg"
+    },
+    {"section": "Sweets"},
+    {
+        "english": "Candy",
+        "kana": "あめ",
+        "kanji": "飴",
+        "icon": "res://assets/icons/food/candy.svg"
+    },
+    {"section": "Drinks"},
+    {
+        "english": "Water",
+        "kana": "みず",
+        "kanji": "水",
+        "icon": "res://assets/icons/food/water.svg"
+    },
+    {
+        "english": "Tea",
+        "kana": "おちゃ",
+        "kanji": "お茶",
+        "icon": "res://assets/icons/food/tea.svg"
+    },
+    {
+        "english": "Black Tea",
+        "kana": "こうちゃ",
+        "kanji": "紅茶",
+        "icon": "res://assets/icons/food/black-tea.svg"
+    },
+    {
+        "english": "Green Tea",
+        "kana": "まっちゃ",
+        "kanji": "抹茶",
+        "icon": "res://assets/icons/food/green-tea.svg"
+    },
+    {
+        "english": "Milk",
+        "kana": "ぎゅうにゅう",
+        "kanji": "牛乳",
+        "icon": "res://assets/icons/food/milk.svg"
+    },
+    {
+        "english": "Sake",
+        "kana": "さけ",
+        "kanji": "酒",
+        "icon": "res://assets/icons/food/sake.svg"
+    },
+    {
+        "english": "Miso Soup",
+        "kana": "みそしる",
+        "kanji": "味噌汁",
+        "icon": "res://assets/icons/food/miso-soup.svg"
     },
     {"section": "Meals"},
     {
